@@ -1,7 +1,7 @@
 QJSONRPC_VERSION = 1.1.0
 
 isEmpty(QJSONRPC_LIBRARY_TYPE) {
-    QJSONRPC_LIBRARY_TYPE = shared
+    QJSONRPC_LIBRARY_TYPE = staticlib
 }
 
 private-headers {
